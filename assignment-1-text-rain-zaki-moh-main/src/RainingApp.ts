@@ -124,11 +124,7 @@ export class RainingApp extends gfx.GfxApp
     {
         // This parameter zooms in on the scene to fit within the window.
         // Other options include FIT or STRETCH.
-        // for (let i = 0; i <= 10; i++){
-        //     const raindrop = gfx.Geometry2Factory .createRect (0.5, 0.5);
-        //     raindrop.material.texture = new gfx.Text("A",64,64,'25px Helvetica' ,'blue');
-        //     this.scene.add(raindrop)
-        // }
+
         // To see each frame of the video, we need to apply it as a meterial to some geometry.
         // So, we'll create a big rectangle that fills the entire screen (width = 2, height = 2).
         this.backgroundRect = gfx.Geometry2Factory.createRect(2, 2);
